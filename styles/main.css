@@ -1,3 +1,13 @@
+body {
+	background: #E8E8EA;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
 .button-download {
 	background: #32CC30;
 	color: black;
@@ -6,11 +16,29 @@
 	width: 35%;
 }
 
-body {
-	background: #E8E8EA;
+.on_top {
+	position: absolute;
 }
 
 .section_head {
 	letter-spacing: 10px;
+	font-weight: bolder;
+	font-size: 45px;
+}
+
+.about_section_head {
 	font-weight: bold;
+	font-size: 20px;
+}
+
+.about_section {
+	outline: black solid 2px;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.title {
+	font-size: 45px;
+	font-weight: bolder;
+	text-shadow: 1px 1px 1px #454545;
 }
