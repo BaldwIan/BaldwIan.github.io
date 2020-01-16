@@ -5,3 +5,12 @@
 	text-shadow: 1px 1px #CACACA;
 	width: 35%;
 }
+
+body {
+	background: #E8E8EA;
+}
+
+.section_head {
+	letter-spacing: 10px;
+	font-weight: bold;
+}
