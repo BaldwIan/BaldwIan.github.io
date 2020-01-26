@@ -31,9 +31,15 @@ img {
 	font-size: 20px;
 }
 
-.about_section {
+.normal_section {
 	font-weight: normal;
 	font-size: 15px;
+}
+
+.date_entry {
+	border-radius: 20px;
+	background: #C9C9DA;
+	padding: 20px;
 }
 
 .title {
