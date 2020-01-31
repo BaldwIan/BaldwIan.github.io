@@ -323,7 +323,252 @@
 				</ul>
 			</p>
 		</div>
+		
+		<div class="date_entry mt-5 mb-5">
+			<h1 class="sub_head">19 January, 2020</h1>
+			<hr>
+			<p class="normal_section">
+				Today we looked into foliage. What we worked on was:
+				<ul>
+					<li>
+						Today we wanted to:
+						<ul>
+							<li>Make a tileset for a human area/general outdoors</li>
+						</ul>
+					</li>
+					
+					<li>Looked into grass textures</li>
+					<li>Created flower-grass tile for flourish</li>
+					<li>Worked on paths for an outdoors aesthetic</li>
+					<li>Connor fixed his github issues</li>
+				</ul>
+			</p>
+		</div>
+		
+		<div class="date_entry mt-5 mb-5">
+			<h1 class="sub_head">20 January, 2020</h1>
+			<hr>
+			<p class="normal_section">
+				We made progress on the website and game. What we worked on was:
+				<ul>
+					<li>
+						Today we wanted to:
+						<ul>
+							<li>Work on enemies</li>
+							<li>Make website more easy to use</li>
+						</ul>
+					</li>
+					
+					<li>Made logo on website navigation bar take you to the home page</li>
+					<li>Removed extra col from ‘about’ section on home page</li>
+					<li>Updated enemy AI to use pathfinding with the collision tile layer</li>
+					<li>Added state system with neutral, idle, wander, alert, attack, and stunned</li>
+					<li>Enemy will now collide with walls</li>
+					<li>Enemy will not pathfind while in the stunned state</li>
+					<li>Fixed bug where enemy would add velocity to its position twice causing it to phase through collision tiles</li>
+				</ul>
+			</p>
+		</div>
 
+		<div class="date_entry mt-5 mb-5">
+			<h1 class="sub_head">23 January, 2020</h1>
+			<hr>
+			<p class="normal_section">
+				Today we tried to add to our website. What we worked on was:
+				<ul>
+					<li>
+						Today we wanted to:
+						<ul>
+							<li>Improve our website</li>
+						</ul>
+					</li>
+					
+					<li>Worked on template script for videos</li>
+					<li>Worked on start of script of movement stuff</li>
+				</ul>
+			</p>
+		</div>
+		
+		<div class="date_entry mt-5 mb-5">
+			<h1 class="sub_head">24 January, 2020</h1>
+			<hr>
+			<p class="normal_section">
+				We made progress on the website. What we worked on was:
+				<ul>
+					<li>
+						Today we wanted to:
+						<ul>
+							<li>Improve our website</li>
+						</ul>
+					</li>
+					
+					<li>Developed website concept layout more</li>
+				</ul>
+			</p>
+		</div>
+		
+		<div class="date_entry mt-5 mb-5">
+			<h1 class="sub_head">25 January, 2020</h1>
+			<hr>
+			<p class="normal_section">
+				We made progress on the game. What we worked on was:
+				<ul>
+					<li>
+						Today we wanted to:
+						<ul>
+							<li>Improve the visuals of our game</li>
+						</ul>
+					</li>
+					
+					<li>Added sprint system to player - when pressing shift you will move faster</li>
+					<li>Added room transition with black fade effect</li>
+					<li>Made camera spawn in the middle of rooms so that no screen jumping occurs when trying to realign the camera to the center of the room</li>
+				</ul>
+			</p>
+		</div>
+		
+		<div class="date_entry mt-5 mb-5">
+			<h1 class="sub_head">26 January, 2020</h1>
+			<hr>
+			<p class="normal_section">
+				Today we improved our game. What we worked on was:
+				<ul>
+					<li>
+						Today we wanted to:
+						<ul>
+							<li>Improve the visuals of our game</li>
+						</ul>
+					</li>
+					
+					<li>Imported test assets</li>
+					<li>Made more complex player sprite folder hierarchy which includes different sections for different sprites (ex body, torso, shoes)</li>
+					<li>Finished sprite layering system</li>
+					<li>Player will now draw dynamically according to its direction state</li>
+					<li>Camera dimensions made slightly smaller (640x360) - will likely be fine tuned later</li>
+					<li>Made color percentage shader that has three pass through floats (r, g ,b) that act as a percentage of that color respectively to draw that as a percentage of the original color</li>
+					<li>Grass and tile  set base completed and put into the game and tested - looks pretty good, just a little non-seamless</li>
+					<li>Worked on player animations</li>
+				</ul>
+			</p>
+		</div>
+		
+		<div class="date_entry mt-5 mb-5">
+			<h1 class="sub_head">27 January, 2020</h1>
+			<hr>
+			<p class="normal_section">
+				Today we fixed bugs. What we worked on was:
+				<ul>
+					<li>
+						Today we wanted to:
+						<ul>
+							<li>Ensure the game is stable</li>
+						</ul>
+					</li>
+					
+					<li>Fixed a bug that would make the last frame of animation not play fully through</li>
+					<li>Added NPC parent object</li>
+					<li>Created a test NPC with the same cloth sprites as the player</li>
+					<li>Added basic NPC AI that uses movement similar to players except gets a random direction every 2-5 seconds and travels there, also waits for a random 2-5 seconds</li>
+					<li>Fixed player and npc hair drawing order so that the hair would draw properly</li>
+					<li>Testing done for Showcase page on website - everything works as intended</li>
+					<li>Start of crop system - toggle crop mode with ‘p’ click left mouse button to place a crop object - no growing yet</li>
+					<li>Scrolling through selected crop - will stop at each end rather than looping</li>
+				</ul>
+			</p>
+		</div>
+		
+		<div class="date_entry mt-5 mb-5">
+			<h1 class="sub_head">28 January, 2020</h1>
+			<hr>
+			<p class="normal_section">
+				Today we made progress on the game. What we worked on was:
+				<ul>
+					<li>
+						Today we wanted to:
+						<ul>
+							<li>Add to our crop system</li>
+						</ul>
+					</li>
+					
+					<li>Added crop grid which can be drawn in debug mode</li>
+					<li>Crop icon snaps to the center of a grid square to preview where crop will place</li>
+					<li>Crops now are planted in center of grid square</li>
+					<li>Crops can still be planted on top of each other and don’t grow yet, and can not be harvested or used at all</li>
+					<li>Connor discovered a issue with Gimp</li>
+				</ul>
+			</p>
+		</div>
+		
+		<div class="date_entry mt-5 mb-5">
+			<h1 class="sub_head">29 January, 2020</h1>
+			<hr>
+			<p class="normal_section">
+				We made progress on the crop system. What we worked on was:
+				<ul>
+					<li>
+						Today we wanted to:
+						<ul>
+							<li>Improve our crop system</li>
+						</ul>
+					</li>
+					
+					<li>New tile layer that contains areas where crops can be planted</li>
+					<li>Crops can no longer be planted on top of each other</li>
+					<li>When in planting mode a red rectangle will show in a restricted planting area (not dirt, or in an already planted area), and a green rectangle when hovering over an empty dirt tile. </li>
+					<li>Plant mode causes a fatal error when not in the "rmTest" room. This will be fixed by disabling plant mode in any other room other than the home base type room</li>
+					<li>Crops will now appear correctly based off of how many days old they are</li>
+					<li>Crops will stay the first Sprite for the first day value only (growth stage will still work properly)</li>
+					<li>Added 3 crop information ds_grids: 1) ds_crops_types grid which stores the max growth stages till fully grown, the value of a crop, and the name of the crop as a string (as of now the name is only used for debug). 2) ds_crops_instances grid which contains grid positions of the crops in the farm room; This grid is destroyed when leaving the farm room ("rmTest") as of now, and the data for each crop is transferred to the ds_crops_data grid. 3) ds_crops_data grid which stores the grid position of each crop (x, y), the amount of days old a crop is, and the type of crop that is in the position. If there is no crop, then no data is stored. </li>
+					<li>When any room starts ____ happens, and when any room ends ____ happens, this means that crops stay persistent between rooms</li>
+					<li>Crops day value can be increased when in debug mode by pressing "G"</li>
+					<li>Crops still do not naturally grow</li>
+					<li>Crops can not be harvested</li>
+					<li>Crops do not have a death time</li>
+				</ul>
+			</p>
+		</div>
+		
+		<div class="date_entry mt-5 mb-5">
+			<h1 class="sub_head">30 January, 2020</h1>
+			<hr>
+			<p class="normal_section">
+				Today we reviewed what we have accomplished so far. What we worked on was:
+				<ul>
+					<li>
+						Today we wanted to:
+						<ul>
+							<li>Improve our game systems</li>
+						</ul>
+					</li>
+					
+					<li>Improve the crop system</li>
+					<li>Implemented a shader system for player appearance</li>
+				</ul>
+			</p>
+		</div>
+		
+		<div class="date_entry mt-5 mb-5">
+			<h1 class="sub_head">31 January, 2020</h1>
+			<hr>
+			<p class="normal_section">
+				We made progress on the website and game. What we worked on was:
+				<ul>
+					<li>
+						Today we wanted to:
+						<ul>
+							<li>Add to our event log</li>
+							<li>Work on our player sprites</li>
+							<li>Fix bugs</li>
+						</ul>
+					</li>
+					
+					<li>Ian worked on crop system, discovered an issue where crops would go to a negative growth value causing the crop to disappear</li>
+					<li>Connor fixed base player downward walking animation</li>
+					<li>Niko added a bunch of logs to the website</li>
+				</ul>
+			</p>
+		</div>
+		
 	</div>
 	
 
