@@ -972,6 +972,317 @@
 		</p>
 	</div>
 	
+	<div class="date_entry mt-5 mb-5">
+		<h1 class="sub_head">18 March, 2020</h1>
+		<hr>
+		<p class="normal_section">
+			We made progress on the game sprites. What we worked on was:
+			<ul>
+				<li>
+					Today we wanted to:
+					<ul>
+						<li>Finish leather pants</li>
+					</ul>
+				</li>
+				<li>Finished leather pants</li>
+				<li>Held carrot done</li>
+				<li>Added achievement list to trello for ease of access, red = incomplete, green = complete, yellow = WIP</li>
+				<li>Held corn done</li>
+				<li>Held tomato done</li>
+				<li>Work on particle system stuff</li>
+				<li>Dynamic particle system done</li>
+			</ul>
+		</p>
+	</div>
+	
+	<div class="date_entry mt-5 mb-5">
+		<h1 class="sub_head">19 March, 2020</h1>
+		<hr>
+		<p class="normal_section">
+			We made progress on the game. What we worked on was:
+			<ul>
+				<li>
+					Today we wanted to:
+					<ul>
+						<li>Work on a particle system</li>
+					</ul>
+				</li>
+				<li>Player walking particle system</li>
+				<li>Made particle types global, now created in declare global script in the particles section</li>
+				<li>Create and destroy particle system on room switch in order to let particles draw properly, this fixed a bug where the particles would draw correctly at first, but after switching rooms, the particles would not show up anymore even thought the emitter object was working properly</li>
+				<li>Discovered a bug where if there are 0 crop instances in the farm room, when leaving and coming back there will be 12 crops</li>
+				<li>Crop now has particle system when fully grown</li>
+				<li>when crop grows fully outside the room sparkle particles will appear immediately when re-entering farm room</li>
+				<li>Crop particle system will be destroyed on crop destruction</li>
+				<li>Grass tileset reworked a bit and finished</li>
+				<li>Dirt tileset created to look similar to the grass tileset, but brown</li>
+				<li>Rock Path Tileset started - mostly finished</li>
+				<li>Planned meeting between the three of us, and joined a discord call. Ian was slightly late because of lasagna (that’s a garfield things nice)</li>
+				<li>Finished the leather armor torso part</li>
+				<li>Might also make a part for the head but needs to be discussed</li>
+			</ul>
+		</p>
+	</div>
+	
+	<div class="date_entry mt-5 mb-5">
+		<h1 class="sub_head">22 March, 2020</h1>
+		<hr>
+		<p class="normal_section">
+			We made progress on the game. What we worked on was:
+			<ul>
+				<li>
+					Today we wanted to:
+					<ul>
+						<li>Improve our particle system</li>
+					</ul>
+				</li>
+				<li>Talked about inventory re-work and combat system</li>
+				<li>We want combat system to be complex, and make the player use many moves and possibly combos, and be able to roll to dodge, and maybe parry, we are still in the process of deciding specifics on the combat system</li>
+				<li>Fixed a bug where the plant sparkle particles would only appear on the last crop that grew, or the first crop planted after all crops had fully grown and cycled by one day. This was due to the global particle type system using the same particle for all the emitters of the plant particles</li>
+			</ul>
+		</p>
+	</div>
+	
+	<div class="date_entry mt-5 mb-5">
+		<h1 class="sub_head">23 March, 2020</h1>
+		<hr>
+		<p class="normal_section">
+			We made progress on the game. What we worked on was:
+			<ul>
+				<li>
+					Today we wanted to:
+					<ul>
+						<li>Improve systems within the game</li>
+					</ul>
+				</li>
+				<li>Talk more about combat system, decided that there will be a dodge which will be done with a roll animation</li>
+				<li>The roll animation will add more animations to all clothing items as well</li>
+				<li>The combat system will have multiple animations for different types of attacks which are also going to affect all clothing and maybe some handheld stuff like weapons</li>
+				<li>There will be three categories of weapons, light: swords, medium: spears/ staves, heavy: hammers</li>
+				<li>All weapons will have two types of attacks, a slow and a fast one</li>
+				<li>Combos will be done by alternating your light and heavy attacks in a certain way</li>
+				<li>Enemies will also have different skillsets, same as thew players weapons in terms of light medium and heavy, though not all enemies will have weapons</li>
+				<li>Cc might be replaced with blocking in some cases</li>
+				<li>Heavy enemies will have at least one cc attack (2 at most) to combine with their other attack sometimes</li>
+				<li>Medium enemies will have 1 cc attack, and 1 regular attack</li>
+				<li>Light enemies will have at least 1 mobility move, and one regular attack</li>
+				<li>In turn of enemy animations, they will have 4 directional walking animations, and will have an animation in both direction of their 2 moves (8 animations total)</li>
+				<li>Enemies may be able to carry a weapon which could change the way that they attack this means that the enemy would have 2 Ai’s with 4 different attack animations that</li>
+				<li>Both player and enemy should have a stun animation, and 3 hit frames (we can copy the same one if we are running out of time)</li>
+			</ul>
+		</p>
+	</div>
+	
+	<div class="date_entry mt-5 mb-5">
+		<h1 class="sub_head">24 March, 2020</h1>
+		<hr>
+		<p class="normal_section">
+			We made progress on the game. What we worked on was:
+			<ul>
+				<li>
+					Today we wanted to:
+					<ul>
+						<li>Come up with a system for our metals</li>
+					</ul>
+				</li>
+				<li>Alloys and their metals:</li>
+				<li>Bronze - copper, tin, nickel</li>
+				<li>Cast Iron - iron, carbon, silicon</li>
+				<li>Stainless Steel - iron, chromium, silicon</li>
+				<li>Electrum - silver, gold, copper</li>
+				<li>Vitallium - cobalt, chromium, molybdenum</li>
+				<li>Hastelloy - nickel, chromium, molybdenum</li>
+				<li>Platinum Alloy - platinum, silver</li>
+				<li>Beta Titanium - titanium, chromium, nickel</li>
+				<li>(Some may need to be renamed because companies have trademarks  on alloys).</li>
+				<li>Also finished leather helmet</li>
+				<li>Medium primary attack animation for player done</li>
+				<li>Medium Alternate attack for player done</li>
+				<li>Prototype of attack animation system and state switching based off of input</li>
+				<li>Reworked animation system to work with attacking, animation system will now start at frame 0 on attack animations, and will still start at frame 1 if walking (idle is frame 0 of walk animation)</li>
+				<li>Made test spear sprite to see how spear would look with player attack anims</li>
+				<li>Began work on Bronze Gear (putting all in one xcf file this time and exporting into separate pngs, might be a more organized system).</li>
+				<li>Started prototype for weather system</li>
+				<li>Weather system has a 10% chance of having a weather event every day unless a weather event is happening</li>
+				<li>As of now for debugging the weather system resets to no weather type (sunny) after the day is over</li>
+				<li>The weather system will be changed in the way that weather events will also be given a randomized time to happen, rather than stopping at the end of the day</li>
+				<li>There is a weather strength global var which will be randomized with each weather event</li>
+				<li>The weather strength will determine the visual effects of the weather</li>
+			</ul>
+		</p>
+	</div>
+	
+	<div class="date_entry mt-5 mb-5">
+		<h1 class="sub_head">25 March, 2020</h1>
+		<hr>
+		<p class="normal_section">
+			We made progress on the game. What we worked on was:
+			<ul>
+				<li>
+					Today we wanted to:
+					<ul>
+						<li>Add to our games weather system</li>
+					</ul>
+				</li>
+				<li>Weather system working properly, weather has about a 10% chance to spawn everyday (checked and scaled every frame)</li>
+				<li>Once a weather event ends there will be a full days length cooldown</li>
+				<li>Weather lasts for a random amount of time, as of now this can be 2 in game hours to 24 in game hours</li>
+				<li>Updated mechanic sheet with weather cycle system</li>
+				<li>Reduced sprint speed by half</li>
+				<li>Added movement scalar to player when in the attack state, there are two separate movement scalars</li>
+				<li>We plan to put the movement scalars for each individual weapon in it’s properties eventually</li>
+				<li>Changed weather strength to effect the visual effect of rain only, and weather strength now increases till it equals 1 during weather, and decreases near the end of the weather time</li>
+				<li>Worked on Bronze Gear, finished the animation for the boots and am about half way through with the legs</li>
+			</ul>
+		</p>
+	</div>
+	
+	<div class="date_entry mt-5 mb-5">
+		<h1 class="sub_head">26 March, 2020</h1>
+		<hr>
+		<p class="normal_section">
+			We made progress on the game sprites. What we worked on was:
+			<ul>
+				<li>
+					Today we wanted to:
+					<ul>
+						<li>Attack animations</li>
+					</ul>
+				</li>
+				<li>Started primary attack animations</li>
+			</ul>
+		</p>
+	</div>
+	
+	<div class="date_entry mt-5 mb-5">
+		<h1 class="sub_head">28 March, 2020</h1>
+		<hr>
+		<p class="normal_section">
+			We made progress on the game animations. What we worked on was:
+			<ul>
+				<li>
+					Today we wanted to:
+					<ul>
+						<li>Sprites</li>
+					</ul>
+				</li>
+				<li>Heavy primary attack player animation done</li>
+				<li>Test hammer animation for heavy primary attack</li>
+				<li>Heavy alt attack player animation done</li>
+				<li>Test hammer animation for heavy alt attack</li>
+				<li>Dev carrot hammer walking animations done</li>
+				<li>Finished the Bronze Gear animations for walking</li>
+				<li>Found bug with drawing sprite layers where if a sprite that is supposed to be over, but is shown on the other side then if it overlaps it will not look right</li>
+				<li>Plan to meet from 9-12 in order to help Connor with light attacks</li>
+			</ul>
+		</p>
+	</div>
+	
+	<div class="date_entry mt-5 mb-5">
+		<h1 class="sub_head">29 March, 2020</h1>
+		<hr>
+		<p class="normal_section">
+			We made progress on the game. What we worked on was:
+			<ul>
+				<li>
+					Today we wanted to:
+					<ul>
+						<li>The particle system</li>
+					</ul>
+				</li>
+				<li>Did not actually end up meeting, Connor was busy, and planned to work on game later</li>
+				<li>Fixed a particle system bug where the emitter region was setting the region for a particle type, which would not allow more than one emitter to emit the same particle</li>
+				<li>Struggled a lot with the particle system</li>
+				<li>Attempted to make weather particle system, but when the particles are supposed to burst (when raining), no other particles show up or emit until switching rooms, and the rain particles don’t show up</li>
+			</ul>
+		</p>
+	</div>
+	
+	<div class="date_entry mt-5 mb-5">
+		<h1 class="sub_head">30 March, 2020</h1>
+		<hr>
+		<p class="normal_section">
+			We made progress on the game. What we worked on was:
+			<ul>
+				<li>
+					Today we wanted to:
+					<ul>
+						<li>Improve our item system</li>
+					</ul>
+				</li>
+				<li>Began to make concepted item system where the item types are stored in a data grid</li>
+			</ul>
+		</p>
+	</div>
+	
+	
+	<div class="date_entry mt-5 mb-5">
+		<h1 class="sub_head">31 March, 2020</h1>
+		<hr>
+		<p class="normal_section">
+			We made progress on the game. What we worked on was:
+			<ul>
+				<li>
+					Today we wanted to:
+					<ul>
+						<li>Work on the item system</li>
+					</ul>
+				</li>
+				<li>Ian looking through Inventory system to rework the system a bit</li>
+			</ul>
+		</p>
+	</div>
+	
+	<div class="date_entry mt-5 mb-5">
+		<h1 class="sub_head">2 April, 2020</h1>
+		<hr>
+		<p class="normal_section">
+			We made progress on the game. What we worked on was:
+			<ul>
+				<li>
+					Today we wanted to:
+					<ul>
+						<li>Add to our item system</li>
+					</ul>
+				</li>
+				<li>Gave each item a description</li>
+			</ul>
+		</p>
+	</div>
+	
+	<div class="date_entry mt-5 mb-5">
+		<h1 class="sub_head">5 April, 2020</h1>
+		<hr>
+		<p class="normal_section">
+			We made progress on the game. What we worked on was:
+			<ul>
+				<li>
+					Today we wanted to:
+					<ul>
+						<li>Improve our item system</li>
+					</ul>
+				</li>
+				<li>Moved our item system into scripts</li>
+			</ul>
+		</p>
+	</div>
+	
+	<div class="date_entry mt-5 mb-5">
+		<h1 class="sub_head">15 April, 2020</h1>
+		<hr>
+		<p class="normal_section">
+			We made progress on the game. What we worked on was:
+			<ul>
+				<li>
+					Today we wanted to:
+					<ul>
+						<li>Work on the cave concept</li>
+					</ul>
+				</li>
+				<li>Made a very simple cave room</li>
+			</ul>
+		</p>
+	</div>
 	
 	
 	</div>
