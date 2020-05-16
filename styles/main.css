@@ -7,7 +7,6 @@ img {
 	height: auto;
 }
 
-
 .button-download {
 	background: #32CC30;
 	color: black;
@@ -21,7 +20,7 @@ img {
 }
 
 .section_head {
-	letter-spacing: 10px;
+	letter-spacing: 6px;
 	font-weight: bold;
 	font-size: 45px;
 }
@@ -36,7 +35,7 @@ img {
 	font-size: 15px;
 }
 
-.date_entry {
+.gray_backing {
 	border-radius: 20px;
 	background: #D9D4DC;
 	padding: 20px;
